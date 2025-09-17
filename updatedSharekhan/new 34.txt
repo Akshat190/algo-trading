@@ -1,0 +1,39 @@
+python debug_fs_contracts.py
+✅ Loaded API key from config.py
+Enter your Sharekhan Access Token: eyJ0eXAiOiJzZWMiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ4NnpvMmJMdUhJZk5VRmV5MjhpblgvWEdiNG5uNmI3SkhhRnBxQWQzVnI4em9rdFlQaVB4dFI4MllBS3dhK2VYR0V5MHNyWnFZZ21qdTJ0elBGbFFONHlGK0JUZFJmSUtKd3M4VVJobWxKWTFYNENNM1RmWGd2M1NSTnZEam5MWUpMS01rdDc4L3BrdnlLSE56YTZoTmdqekNyK1VQRUhIYStrZmFYZ3I2eXM5Rzgzb0Iwd290cWdlTlIzSFFKSmkiLCJpYXQiOjE3NTgxMDU2OTQsImV4cCI6MTc1ODEzMzc5OX0.tHuRfnUU_mNB9IGkmtB63ML0slSCcAdSMElmh5F5GDU
+🔍 Fetching FS contracts from NF exchange...
+📊 Processing 74687 instruments...
+✅ Found 625 FS (Stock Futures) contracts
+
+📋 Sample FS contracts:
+    1. 360ONE          | Expiry: 25/11/2025   | Lot: 500
+    2. ABB             | Expiry: 25/11/2025   | Lot: 125
+    3. ABCAPITAL       | Expiry: 25/11/2025   | Lot: 3100
+    4. ADANIENSOL      | Expiry: 25/11/2025   | Lot: 675
+    5. ADANIENT        | Expiry: 25/11/2025   | Lot: 300
+    6. ADANIGREEN      | Expiry: 25/11/2025   | Lot: 600
+    7. ADANIPORTS      | Expiry: 25/11/2025   | Lot: 475
+    8. ALKEM           | Expiry: 25/11/2025   | Lot: 125
+    9. AMBER           | Expiry: 25/11/2025   | Lot: 100
+   10. AMBUJACEM       | Expiry: 25/11/2025   | Lot: 1050
+
+📅 FS Contract Expiry Dates:
+   25/11/2025      : 208 contracts | Examples: 360ONE, ABB, ABCAPITAL
+   28/10/2025      : 208 contracts | Examples: SAMMAANCAP, 360ONE, ABB
+   30/09/2025      : 209 contracts | Examples: SAMMAANCAP, NUVAMA, SUZLON
+      *** 30/09/2025 is 12 days away from today! ***
+
+🎯 NEAR EXPIRY: 30/09/2025 (12 days) - 209 contracts
+   Examples: SAMMAANCAP, NUVAMA, SUZLON, 360ONE, ABB
+
+📊 Total FS contracts expiring within 30 days: 209
+
+   python SharekhanApi\automated_auth.py
+   Copy the access token
+   python near_future_fetcher.py
+   Enter your access token when prompted
+   Watch real-time Near Future data update every few seconds!
+   
+   
+It is for checking expiry 
+python debug_date_filtering.py
